@@ -10,7 +10,7 @@
 /**
  * Base class for a technomad's location. Handles storing current and past location.
  */
-class TechnomadLocation extends Technomad {
+class TechnomadLocation {
     var $previous_city; //!< Human-readable name of city-level previous location.
     var $current_city;  //!< Human-readable name of city-level current location.
     var $latitude;      //!< Current latitude coordinate.
